@@ -1,0 +1,7 @@
+Scenario,PPF,MaleControl,FemaleControl,R0,Y
+No control,"none","none","none",62.9719255636932,465.75000868908
+Uniform PPF only,"d_i=45, all patches","none","none",10.3198355622671,426.621699633938
+Uniform TSB and AGOs only,"none","a_m=0.5, all patches","a_f=0.5, all patches",4.95007322363157,182.819310396414
+PPF + uniform mixed,"d_i=45, all patches","a_m=0.5, all patches","a_f=0.5, all patches",0.811217716971195,NaN
+PPF + optimal fully disjoint,"d_i=45, all patches","a_m=1 on {1,3,5,7,9}","a_f=1 on {2,4,6,8,10}",1.1041086819231,19.2368237893218
+PPF + optimal fully colocated,"d_i=45, all patches","a_m=1 on {1,3,5,7,9}","a_f=1 on {1,3,5,7,9}",1.41327737849978,47.6037778257762
